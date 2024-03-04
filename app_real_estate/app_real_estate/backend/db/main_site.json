@@ -1,0 +1,161 @@
+{
+  "header": {
+    "phone": "(+88) 666 121 4321",
+    "email": "info.leramiz@colorlib.com",
+    "socialLinks": [
+      "https://www.facebook.com",
+      "https://www.twitter.com",
+      "https://www.instagram.com",
+      "https://www.pinterest.com",
+      "https://www.linkedin.com"
+    ],
+    "mainMenu": [
+    ]
+  },
+  "hero": {
+    "h2": "find your place with our local life style",
+    "p": "Search real estate property records, houses, condos, land and more. Find property info from the most comprehensive source data.",
+    "button": {
+      "link": "",
+      "text": "VIEW DETAIL"
+    }
+  },
+  "servicesSection": {
+    "image": "img/service.jpg",
+    "h3": "OUR SERVICES",
+    "p": "We provide the perfect service for",
+    "serviceItems": [
+      {
+        "h5": "Consultant Service",
+        "p": "In Aenean purus, pretium sito amet sapien denim consectet sed urna placerat sodales magna leo."
+      },
+      {
+        "h5": "Consultant Service",
+        "p": "In Aenean purus, pretium sito amet sapien denim consectet sed urna placerat sodales magna leo."
+      },
+      {
+        "h5": "Consultant Service",
+        "p": "In Aenean purus, pretium sito amet sapien denim consectet sed urna placerat sodales magna leo."
+      }
+    ]
+  },
+  "review": {
+    "reviewItems": [
+      {
+        "image": "img/review/1.jpg",
+        "h5": "Stacy Mc Neeley",
+        "p": "Leramiz was quick to understand my needs and steer me in the right direction. Their professionalism and warmth made the process of finding a suitable home a lot less stressful than it could have been. Thanks, agent Tony Holland.",
+        "span": "CEP’s Director"
+      },
+      {
+        "image": "img/review/1.jpg",
+        "h5": "Stacy Mc Neeley",
+        "p": "Leramiz was quick to understand my needs and steer me in the right direction. Their professionalism and warmth made the process of finding a suitable home a lot less stressful than it could have been. Thanks, agent Tony Holland.",
+        "span": "CEP’s Director"
+      },
+      {
+        "image": "img/review/1.jpg",
+        "h5": "Stacy Mc Neeley",
+        "p": "Leramiz was quick to understand my needs and steer me in the right direction. Their professionalism and warmth made the process of finding a suitable home a lot less stressful than it could have been. Thanks, agent Tony Holland.",
+        "span": "CEP’s Director"
+      }
+    ]
+  },
+  "clients": [
+    "img/partner/1.png",
+    "img/partner/2.png",
+    "img/partner/3.png",
+    "img/partner/4.png",
+    "img/partner/5.png"
+  ],
+  "footer": {
+    "image": "img/logo.png",
+    "p": "Lorem ipsum dolo sit azmet, consecter dipise consult  elit. Maecenas mamus antesme non anean a dolor sample tempor nuncest erat.",
+    "socialLinks": [
+      "https://www.facebook.com",
+      "https://www.twitter.com",
+      "https://www.instagram.com",
+      "https://www.pinterest.com",
+      "https://www.linkedin.com"
+    ],
+    "contacts": [
+      "3711-2880 Nulla St, Mankato, Mississippi",
+      "(+88) 666 121 4321",
+      "info.leramiz@colorlib.com",
+      "Mon - Sat, 08 AM - 06 PM"
+    ],
+    "popularPlacesLinks": [
+      [
+        {
+          "link": "",
+          "title": "Florida"
+        },
+        {
+          "link": "",
+          "title": "New York"
+        },
+        {
+          "link": "",
+          "title": "Washington"
+        },
+        {
+          "link": "",
+          "title": "Los Angeles"
+        },
+        {
+          "link": "",
+          "title": "Chicago"
+        }
+      ],
+      [
+        {
+          "link": "",
+          "title": "St Louis"
+        },
+        {
+          "link": "",
+          "title": "Jacksonville"
+        },
+        {
+          "link": "",
+          "title": "San Jose"
+        },
+        {
+          "link": "",
+          "title": "San Diego"
+        },
+        {
+          "link": "",
+          "title": "Houston"
+        }
+      ]
+    ],
+    "footerBottom": [
+      {
+        "link": "/",
+        "text": "Home"
+      },
+      {
+        "link": "categories.html",
+        "text": "Featured Listing"
+      },
+      {
+        "link": "about.html",
+        "text": "About us"
+      },
+      {
+        "link": "single-list.html",
+        "text": "Pages"
+      },
+      {
+        "link": "blog.html",
+        "text": "Blog"
+      },
+      {
+        "link": "contact.html",
+        "text": "Contact"
+      }
+    ]
+  }
+}
+

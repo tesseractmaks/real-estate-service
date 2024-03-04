@@ -1,0 +1,18 @@
+version: "1"
+
+services:
+  estate_front:
+    build:
+      context: ./frontend
+    container_name: front
+    restart: always
+
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.estate.rule=Host(`estate.tesseractmaks.tech`)"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+networks:
+  default:
+    name: proxynet
+    external: true

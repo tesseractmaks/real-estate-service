@@ -1,0 +1,10 @@
+#!/bin/bash
+
+set -e
+
+psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-EOSQL
+	CREATE USER estate WITH PASSWORD $POSTGRES_PASSWORD;
+	CREATE DATABASE estate_db;
+	GRANT ALL PRIVILEGES ON DATABASE estate TO estate_db;
+EOSQL
+
