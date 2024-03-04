@@ -5,6 +5,9 @@ from fastapi.exception_handlers import request_validation_exception_handler
 from fastapi.exceptions import RequestValidationError, ResponseValidationError
 from prometheus_fastapi_instrumentator import Instrumentator
 from starlette.middleware.cors import CORSMiddleware
+from redis import asyncio as aioredis
+from fastapi_cache import FastAPICache
+from fastapi_cache.backends.redis import RedisBackend
 import sentry_sdk
 
 from api import router as router_v1
@@ -21,6 +24,8 @@ sentry_sdk.init(
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     await init_db()
+    redis = aioredis.from_url("redis://redis_estate:6379")
+    FastAPICache.init(RedisBackend(redis), prefix="fastapi-cache")
     yield
 
 
